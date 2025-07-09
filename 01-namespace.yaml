@@ -1,0 +1,7 @@
+apiversion: eksctl.io/v1alpha5
+kind : namespace
+metadata:
+  name: expense
+  labels:
+    project: expense
+    environment: dev
